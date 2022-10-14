@@ -23,7 +23,7 @@ let result3 = sentence3.includes('body')
 console.log(`Does sentence 3 contain body--> ${result3}`)
 
 let sentence3LowerCase3 = sentence3.toLowerCase()
-let indexOfSentence3 = sentence3.indexOf('body')
+let indexOfSentence3 = sentence3.indexOf('BoDy')
 let result4 = sentence3.indexOf('body')
 console.log(`What is index of body--> ${result4}`); //I'm not sure why my result is coming as -1 //
 
