@@ -10,9 +10,9 @@ const sports = ['Football', 'Soccer', 'Baseball', 'Rugby'];
 **/
 
 if (sports.includes('BASKETBALL') && (sports.indexOf('BASKETBALL') !== 2)) {
-    console.log('BASKETBALL is present at index-2'); 
+    console.log('\n(Q1)BASKETBALL is present at index-2'); 
 }else if (sports.indexOf('BASKETBALL') === 2) {
-    console.log('BASKETBALL is present at index-2');
+    console.log('\n(Q1)BASKETBALL is present at index-2');
 } else  {
     console.log(`(Q1)Replaced value --> ${sports.splice(2,1,'BASKETBALL')}`);
 }
@@ -21,7 +21,7 @@ if (sports.includes('BASKETBALL') && (sports.indexOf('BASKETBALL') !== 2)) {
 let planets = ['Earth', 'Mercury', 'Jupiter', 'Saturn', 'Mars', "Venus", 'Pluto']; 
 
 if (planets.indexOf('Earth') === 1) {
-    console.log("Earth is mentioned in expected index");
+    console.log("\n(Q2)Earth is mentioned in expected index");
 }else   {
     planets.splice(1,0,'Earth')
     console.log(`\n(Q2)New Array --> ${planets}`);
@@ -41,12 +41,12 @@ let studentScore = 95
 let maxScore = 100
 
 if (maxScore != 100.00) {
-    console.log(`invalid Student Score`);
+    console.log(`\n(Q2)invalid Student Score`);
     return
 }
 
 if ((studentScore < 0) || (studentScore > maxScore)) {
-    console.log('Invalid student score');
+    console.log('\n(Q2)Invalid student score');
     return
 }
 
