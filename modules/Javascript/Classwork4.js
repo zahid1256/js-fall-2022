@@ -31,7 +31,7 @@ for (let counter = sports.length-1 ; counter >= 0 ; counter--) {
 const planets = ['EartH', 'MerCury', 'VeNUs', 'JuPIter', 'Saturn', 'PluTO']
 let reversePlanets = []
 
-for (let i= planets.length-1 ; i >= 0 ; i--) {
+for (let i = planets.length-1 ; i >= 0 ; i--) {
     reversePlanets[planets.length-1-i] = planets[i];
 }   console.log(`planets reversed --> ${reversePlanets}`);
 
